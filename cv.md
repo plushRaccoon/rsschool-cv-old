@@ -18,10 +18,8 @@
    * CSS (in progress);
    * JavaScript (in progress).
 1. Code example:
-   ```
-   var stringToNumber = function(str){
-  return parseInt(str);
-  ```
+   ```var stringToNumber = function(str){
+  return parseInt(str);```
 1.  Education:
     1. BSTU, 2017, technologist of medicines
     1. [HTMLAcademy](https://htmlacademy.ru) Basic HTML, CSS, JavaScript
