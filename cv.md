@@ -18,10 +18,13 @@
    * CSS (in progress);
    * JavaScript (in progress).
 1. Code example:
-   ```var stringToNumber = function(str){
-  return parseInt(str);```
+   ```
+   var stringToNumber = function(str){
+   return parseInt(str);
+   ```
+  
 1.  Education:
-    1. BSTU, 2017, technologist of medicines
-    1. [HTMLAcademy](https://htmlacademy.ru) Basic HTML, CSS, JavaScript
-    1. The Rolling Scopes School (in progress)
+    * BSTU, 2017, technologist of medicines
+    * [HTMLAcademy](https://htmlacademy.ru) Basic HTML, CSS, JavaScript
+    * The Rolling Scopes School (in progress)
 1. English level is A2+ (B1 is in progress).
