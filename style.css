@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'WorkSans';
+     src: url("assets/fonts/WorkSans-Light.ttf");
+     font-weight: 300;
+   }
+
+@font-face {
+    font-family: 'WorkSans';
+     src: url("assets/fonts/WorkSans-BoldItalic.ttf");
+     font-weight: 600;
+   }
+
+body {
+    font-family: 'WorkSans';
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
 .main-photo {
     width: 250px;
     height: 350px;
