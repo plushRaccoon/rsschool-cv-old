@@ -11,16 +11,51 @@
    }
 
 body {
-    font-family: 'WorkSans';
+    font-family: 'WorkSans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 * {
     box-sizing: border-box;
   }
 
+.header {
+    border: 1px solid red;
+}
+
+.main {
+    border: 1px solid red;
+}
+
+.footer {
+    border: 1px solid red;
+}
 
 .main-photo {
     width: 250px;
     height: 350px;
     margin: 20px;
 }
+
+.logo {
+    margin: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.user-link {
+    margin: 50px;
+    text-align: left;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
