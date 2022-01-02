@@ -129,9 +129,12 @@ ul {
     line-height: normal;
 }
 
-.summary, .skills,
-.code, .education,
-.english, .code   {
+.summary, 
+.skills,
+.code, 
+.education,
+.english, 
+.code   {
     position: relative;
     border-left: 3px solid #FFECD1;
     color: #49152c;
