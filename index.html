@@ -10,9 +10,8 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-        <nav class="list">
-            <ul>
+        <nav class="container">
+            <ul class="nav-list">
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#summary">Summary</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -21,72 +20,86 @@
                 <li><a href="#english">English</a></li>
             </ul>
         </nav>
-        <img class="main-photo" src="img/main-photo.jpg" alt="My photo">
-        <h1>Iryna Pliakhanava</h1>
-        <p>Beginner Front-End Developer</p>
-        </div>
     </header>
     <main class="main">
-     <div class="container"></div>
-        <section class="section">
-            <h3 id="contacts">Contacts</h3>
-            <p>
+        <div class="left-side">
+            <section class="section-name">
+                <div class="photo">
+                    <img class="main-photo" src="img/main-photo.jpg" alt="my photo">
+                </div>
+                <h1 class="letter-space"><span>Iryna Pliakhanava</span></h1>
+                <p class="profession">Beginner Front-End Developer</p>
+            </section>
+            <section class="section-contacts">
+                <h2 id="contacts">Contacts</h2>
+                    <ul class="contacts">
+                        <li><a href="irkapuh@gmail.com">Email</a></li>
+                        <li><a href="t.me/plushaaaaa">Telegram</a></li>
+                        <li>Discord: Iryna Pliakhanava (@zefkapuh)</li>
+                    </ul>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="section-summary">
+                <h2 id="summary" class="summary">Summary</h2>
+                  <p>I’m an engineer-technologist. I’ve worked at a pharmaceutical company for 4 years and now I’m learning FrontEnd development to change the job.
+                     <br>I’m able to work in a team, I’m also good with self-control, communication, time management.  
+                     <br>I also keen on photography and floristry. My favourite entertainment is riding bicycle.
+                     <br>The best abilities are:
+                     <ul>
+                        <li>Responsibility;</li>
+                        <li>Organization;</li>
+                        <li>Patience;</li>
+                        <li>Sociability.</li>
+                     </ul>
+                   </p>
+            </section>
+            <section class="section-skills">
+                <h2 id="skills" class="skills">Skills</h2>
+                <p> I haven’t got any experience at the development, but it seems very interesting for me. However:
+                    <ul>
+                        <li>HTML (in progress)</li>
+                        <li>CSS (in progress)</li>
+                        <li>JavaScript (in progress)</li>
+                    </ul>
+                </p>
+                
+            </section>
+            <section class="section-code">
+                <h2 id="code" class="code">Code</h2>
+                   <p class="code-change">
+                       <code>
+                        booleanToString(b){<br>
+                        return b.toString();<br>
+                        } 
+                       </code>
+                  </p>
+            </section>
+            <section class="section-education">
+                <h2 id="education" class="education">Education and courses</h2>
                 <ul>
-                    <li><a href="irkapuh@gmail.com">Email</a></li>
-                    <li><a href="t.me/plushaaaaa">Telegram</a></li>
-                    <li>Discord: Iryna Pliakhanava (@zefkapuh)</li>
+                    <li>BSTU, 2017, technologist of medicines</li>
+                    <li><a href="https://htmlacademy.ru">HTMLAcademy Basic HTML, CSS, JavaScript</a></li>
+                    <li><a href="https://rs.school/js/">RSschool Front-End Development (in progress)</a></li>
                 </ul>
-            </p>
-        </section>
-        <section class="section">
-            <h3 id="summary">Summary</h3>
-            <p>I’m an engineer-technologist. I’ve worked at a pharmaceutical company for 4 years and now I’m learning FrontEnd development to change the job. I’m able to work in a team, I’m also good with self-control, communication, time management.</p>
-            <p>The best abilities are:
-                <ul>
-                    <li>Responsibility;</li>
-                    <li>Organization;</li>
-                    <li>Patience;</li>
-                    <li>Sociability.</li>
-                </ul>
-                I also keen on photography and floristry. My favourite entertainment is riding bicycle.
-            </p>
-        </section>
-        <section class="section">
-            <h3 id="skills">Skills</h3>
-            <p> I haven’t got any experience at the development, but it seems very interesting for me. However:
-                <ul>
-                    <li>HTML (in progress)</li>
-                    <li>CSS (in progress)</li>
-                    <li>JavaScript (in progress)</li>
-                </ul>
-            </p>
-        </section>
-        <section class="section">
-            <h3 id="code">Code</h3>
-            <code>
-                <pre>booleanToString(b){</pre> 
-                <pre>return b.toString();</pre> 
-                <pre>}</pre> 
-            </code>
-        </section>
-        <section class="section">
-            <h3 id="education">Education and courses</h3>
-            <ul>
-                <li>BSTU, 2017, technologist of medicines</li>
-                <li><a href="https://htmlacademy.ru">HTMLAcademy Basic HTML, CSS, JavaScript</a></li>
-                <li><a href="https://rs.school/js/">RSschool Front-End Development (in progress)</a></li>
-            </ul>
-        </section>
-        <section class="section">
-            <h3 id="english">English</h3>
-            <p>English level is A2+ (B1 is in progress).</p>
-        </section>
-     </div>
+            </section>
+            <section class="section-english">
+                <h2 id="english" class="english">English</h2>
+                <p>English level is A2+ (B1 is in progress).</p>
+            </section>
+        </div>
     </main>
     <footer class="footer">
-    <div class="container"> 
-        <img class="logo" src="img/logo.svg" alt="logotype">
-        <a class="user-link" href="https://rs.school/js/">Курс "JavaScript/FrontEnd"</a>
+    <div>
+        <a href="https://github.com/zefkapuh" title="Visit my GitHub">
+            <img class="github" src="img/GitHub-Mark-64px.png" alt="Visit my GitHub">
+        </a>
+    </div>
+        <p>2022</p>
+    <div> 
+        <a href="https://rs.school/js/" title="Welcome to RSschool">
+            <img class="logo" src="img/logo.svg" alt="logotype">
+        </a>
     </div>
     </footer>
    </body>
