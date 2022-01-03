@@ -1,3 +1,3 @@
 https://zefkapuh.github.io/rsschool-cv/cv
 
-https://zefkapuh.github.io/rsschool-cv/index.html
+https://zefkapuh.github.io/rsschool-cv/
