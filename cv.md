@@ -6,25 +6,32 @@
    I'm able to work in a team, I'm also good with self-control, communication, time management. 
    
    *The best abilities are:*
-   * responsibility;
-   * organization;
-   * patience;
-   * sociability.
+   * responsibility
+   * organization
+   * patience
+   * sociability
 
    I also keen on photography and floristry. My favourite entertainment is riding bicycle.
-1. I haven't got any experience at development, but it seems very interesting for me.
-   However:
-   * HTML (in progress);
-   * CSS (in progress);
-   * JavaScript (in progress).
+1. After the Stage 0 at RSSchool I've got several basic skills:
+   * HTML 
+   * CSS 
+   * JavaScript 
+   * Figma
+   * Git
 1. Code example:
    ```
-   var stringToNumber = function(str){
-   return parseInt(str);
+   function isPowerOfTwo(n) {
+   return Number.isInteger(Math.log2(n));
+   }
    ```
+1. Projects:
+  * [Curriculum vitae](https://zefkapuh.github.io/rsschool-cv/)
+  * [A landing page for a photographer](https://rolling-scopes-school.github.io/zefkapuh-JSFEPRESCHOOL/portfolio/)
+  * [A custom video player](https://rolling-scopes-school.github.io/zefkapuh-JSFEPRESCHOOL/portfolio/videoApp.html)
+  * [Movie App](https://rolling-scopes-school.github.io/zefkapuh-JSFEPRESCHOOL/movieApp/)
   
 1.  Education:
-    * BSTU, 2017, technologist of medicines
+    * Belarusian State Technological University, 2017, Technologist of medicines
     * [HTMLAcademy](https://htmlacademy.ru) Basic HTML, CSS, JavaScript
-    * The Rolling Scopes School (in progress)
-1. English level is A2+ (B1 is in progress).
+    * [RSSchool «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)
+1. English level is B1.
